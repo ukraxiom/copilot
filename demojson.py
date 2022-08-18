@@ -25,6 +25,8 @@ for filename in os.listdir(directory):
             if 'mode' not in i:
                 i['mode'] = 'NULLABLE'
             if 'description' not in i:
+                print('adding desc')
+                print(f)
                 i['description'] = 'Biz: Require ' + i['name'] + \
                     ' for agent activation; Tech: Pulling column from '+ filename.split('.')[0] +' table'
                 print(len(i['description'].split(';')[0]),

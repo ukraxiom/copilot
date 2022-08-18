@@ -3,7 +3,7 @@
     "mode": "NULLABLE",
     "name": "id",
     "type": "INTEGER",
-    "description": "Biz: Require id for agent activation; Tech: Pulling column from demo table"
+    "description": "Biz: Require id for primary key; Tech: Pulling column from demo table"
   },
   {
     "mode": "NULLABLE",

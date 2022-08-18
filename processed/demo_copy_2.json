@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "INTEGER",
+    "description": "Biz: Require id for agent activation; Tech: Pulling column from demo_copy_2 table"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING",
+    "description": "Biz: Require name for agent activation; Tech: Pulling column from demo_copy_2 table"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "description",
+    "type": "STRING",
+    "description": "Biz: Require description for agent activation; Tech: Pulling column from demo_copy_2 table"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price",
+    "type": "FLOAT",
+    "description": "Biz: Require price for agent activation; Tech: Pulling column from demo_copy_2 table"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category",
+    "type": "STRING",
+    "description": "Biz: Require category for agent activation; Tech: Pulling column from demo_copy_2 table"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "image",
+    "type": "STRING",
+    "description": "Biz: Require image for agent activation; Tech: Pulling column from demo_copy_2 table"
+  }
+]
